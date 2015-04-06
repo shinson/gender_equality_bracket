@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<section>
+{% for college in name %}
+<h1>{{college}}</h1>
+{% endfor %}
+<table>
+<tr>
+<th> </th>
+<th>Male</th>
+<th>Female</th>
+</tr>
+{% for name, stats in table_list %}
+	<tr>
+	<td>{{name}}</td>
+	<td>{{stats.0}}%</td>
+	<td>{{stats.1}}%</td>
+	</tr>
+{% endfor %}
+</table>
+</section>
+<section>
+<h2> Top 3 in region {{region}}</h2>
+{% for school in region_data %}
+	<p>{{school.abbrev}}-{{school.rank}}</p>
+	<table>
+	<tr>
+	<th> </th>
+	<th>Male</th>
+	<th>Female</th>
+	</tr>
+	<tr>
+	<td>Graduation</td>
+	<td>{{school.male_grad_rate}}%</td>
+	<td>{{school.female_grad_rate}}%</td>
+	</tr>
+	<tr>
+	<td>Admissions</td>
+	<td>{{school.male_admin_rate}}%</td>
+	<td>{{school.female_admin_rate}}%</td>
+	</tr>
+	<tr>
+	<td>Basketball Scholarships</td>
+	<td>{{school.male_bb_rate}}%</td>
+	<td>{{school.female_bb_rate}}%</td>
+	</tr>
+	<tr>
+	<td>STEM Graduates</td>
+	<td>{{school.male_stem_rate}}%</td>
+	<td>{{school.female_stem_rate}}%</td>
+	</tr>
+</table>
+	
+{% endfor %}
+</section>
+<section>
+<h2> Bottom 3 in region {{region}}</h2>
+{% for school in region_bottom %}
+	<p>{{school.abbrev}}-{{school.rank}}</p>
+	<table>
+	<tr>
+	<th> </th>
+	<th>Male</th>
+	<th>Female</th>
+	</tr>
+	<tr>
+	<td>Graduation</td>
+	<td>{{school.male_grad_rate}}%</td>
+	<td>{{school.female_grad_rate}}%</td>
+	</tr>
+	<tr>
+	<td>Admissions</td>
+	<td>{{school.male_admin_rate}}%</td>
+	<td>{{school.female_admin_rate}}%</td>
+	</tr>
+	<tr>
+	<td>Basketball Scholarships</td>
+	<td>{{school.male_bb_rate}}%</td>
+	<td>{{school.female_bb_rate}}%</td>
+	</tr>
+	<tr>
+	<td>STEM Graduates</td>
+	<td>{{school.male_stem_rate}}%</td>
+	<td>{{school.female_stem_rate}}%</td>
+	</tr>
+</table>
+	
+{% endfor %}
+</section>
+{% endblock %}

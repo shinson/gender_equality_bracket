@@ -1,0 +1,4 @@
+Django==1.7.7
+gnureadline==6.3.3
+ipython==3.0.0
+wsgiref==0.1.2

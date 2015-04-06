@@ -1,0 +1,352 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<div class='bracket'>
+<section class = "topRow">
+<table class = "leftside">
+	
+      {% for key in mw_order %}
+      		{% if forloop.first %}
+           	<tr><td class="firstRow"><a href = "/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space"></td></tr>
+           	{% endif %}
+      {% endfor %}
+
+</table>
+<table class = "leftside8">
+	
+      {% for key in mw_eight %}
+           {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom8"> <a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space8"></td></tr>
+           	{% endif %}
+      {% endfor %}
+	
+</table>
+<table class = "leftside4">
+	
+	
+      {% for key in mw_four %}
+      	
+           	{% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space4"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+	
+	
+</table>
+<table class = "leftside2">
+	
+	
+      {% for key in mw_two %}
+      	
+      		{% if forloop.first%}
+           <tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% else %}
+           <tr><td class="bottom2"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% endif %}
+        
+        
+      {% endfor %}
+	
+	
+</table>
+<table class = "leftside1t">
+	
+	
+      {% for key in mw_one %}
+      	
+      	
+           <tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+        
+        
+      {% endfor %}
+	
+	
+</table>
+<table class ="rightside">
+{% for key in east_order %}
+		{% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom" ><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space"></td></tr>
+        {% endif %}
+           
+      {% endfor %}
+
+</table>
+<table class ="rightside8">
+
+{% for key in east_eight %}
+           {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space8"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+
+</table>
+<table class ="rightside4">
+
+
+{% for key in east_four %}
+		   
+            {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space4"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+
+
+</table>
+<table class ="rightside2">
+
+
+{% for key in east_two %}
+		   
+		   
+           {% if forloop.first%}
+           <tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% else %}
+           <tr><td class="bottom2"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% endif %}
+        
+           
+			
+      {% endfor %}
+
+
+</table>
+<table class ="rightside1t">
+
+
+{% for key in east_one %}
+		   
+		   
+           <tr><td><a href="/team/{{key.3}}/">{{key.0}}-{{key.1}}</a></td></tr>
+           
+			
+      {% endfor %}
+
+
+</table>
+</section>
+<section id = "middle">
+<table id = "middleTable">
+<tr>
+<td><a href="/team/{{winner_top.0.3}}/">{{winner_top.0.1}}-{{winner_top.0.0}}</a></td>
+</tr>
+<tr><td id = "winner"> {{champion.0.1}}-{{champion.0.0}}</td></tr>
+<tr>
+<td><a href="/team/{{winner_bottom.0.3}}/">{{winner_bottom.0.1}}-{{winner_bottom.0.0}}</a></td>
+</tr>
+</table>
+</section>
+<section class = "bottomRow">
+<table class = "leftside">
+	
+      {% for key in west_order %}
+      		{% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom" ><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space"></td></tr>
+           	{% endif %}
+      {% endfor %}
+
+</table>
+<table class = "leftside8">
+	
+      {% for key in west_eight %}
+         {% if forloop.first == True %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom8" ><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space8"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+	
+</table>
+<table class = "leftside4">
+	
+	
+      {% for key in west_four %}
+      	
+           {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space4"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+	
+	
+</table>
+<table class = "leftside2">
+	
+	
+      {% for key in west_two %}
+      	
+      	
+           {% if forloop.first%}
+           <tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% else %}
+           <tr><td class="bottom2"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% endif %}
+	   
+	   
+      {% endfor %}
+	
+	
+</table>
+<table class = "leftside1">
+	
+	
+      {% for key in west_one %}
+      	
+      	
+           <tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+	   
+	   
+      {% endfor %}
+	
+	
+</table>
+<table class ="rightside">
+{% for key in south_order %}
+           {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+
+</table>
+<table class ="rightside8">
+
+{% for key in south_eight %}
+         {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom8"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space8"></td></tr>
+           	{% endif %}
+      {% endfor %}
+
+</table>
+<table class ="rightside4">
+
+
+{% for key in south_four %}
+			
+           {% if forloop.first %}
+           	<tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.last %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% elif forloop.counter0|divisibleby:2 %}
+           	<tr><td><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	{% else %}
+           	<tr><td class="bottom4"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           	<tr><td class="space4"></td></tr>
+           	{% endif %}
+           
+      {% endfor %}
+
+
+</table>
+<table class ="rightside2">
+
+
+{% for key in south_two %}
+			
+			
+           {% if forloop.first%}
+           <tr><td class="firstRow"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% else %}
+           <tr><td class="bottom2"><a href="/team/{{key.3}}/">{{key.1}}-{{key.0}}</a></td></tr>
+           {% endif %}
+           
+           
+      {% endfor %}
+
+
+</table>
+<table class ="rightside1">
+
+
+{% for key in south_one %}
+			
+			
+           <tr><td><a href="/team/{{key.3}}/">{{key.0}}-{{key.1}}</a></td></tr>
+           
+           
+      {% endfor %}
+
+
+</table>
+</section>
+</div>
+{% endblock %}
+

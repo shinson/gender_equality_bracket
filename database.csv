@@ -1,0 +1,67 @@
+college,region,rank, magic_no,female_bb,male_bb,female_grad,male_grad,female_stem,male_stem,female_admin,male_admin,abbrev
+Harvard University,West,13,0,0,0,98,97,2.67,4.03,6,6,Harvard
+Villanova University,East,1,4.94,100,100,91,90,3.61,6.55,49,48,Villanova
+Wofford College,West,12,6.42,22,23,84,79,5.05,5.47,45,45,Wofford
+University of Kansas,Midwest,2,9.31,74,74,64,59,1.64,2.95,94,91,Kansas
+University of Louisville,East,4,9.36,88,87,54,53,1.11,3.47,69,74,Louisville
+University of Notre Dame,Midwest,3,12.86,85,79,96,93,3.74,6.6,22,23,Notre Dame
+North Dakota State University-Main Campus,South,15,13.08,13,20,55,52,1.97,5.05,84,84,ND State
+Boise State University,East,11,14.13,88,88,40,36,0.39,1.52,82,73,Boise State
+University of Oregon,West,8,14.14,75,76,68,65,1.67,1.81,79,69,Oregon
+University of Mississippi,West,11,14.89,86,81,62,54,1.18,2.07,60,59,Ole Miss
+University of Cincinnati-Main Campus,Midwest,8,15.93,88,79,58,57,1.23,4.16,72,75,Cincinnati
+Duke University,South,1,16.85,81,73,96,92,5.71,9.56,13,14,Duke
+Valparaiso University,Midwest,13,17.06,83,92,69,71,1.84,6.9,79,80,Valparaiso
+Hampton University,Midwest,16,18.05,68,71,73,58,2.08,2.03,36,36,Hampton
+The University of Texas at Austin,Midwest,11,19.4,82,86,82,76,3.41,0.01,43,37,UT Austin
+St John's University-New York,South,9,20.5,86,75,59,52,1,1.5,52,54,St John's
+Indiana University-Bloomington,Midwest,10,20.74,94,78,79,75,1.17,1.91,72,72,Indiana
+Louisiana State University and Agricultural & Mechanical College,East,9,21.06,100,87,72,66,2.6,4.66,76,76,LSU
+Georgetown University,South,4,21.67,71,87,93,91,1.05,1.72,16,19,Georgetown
+Butler University,Midwest,6,21.78,84,75,76,71,1.81,2.59,69,62,Butler
+University of Maryland-College Park,Midwest,4,21.89,86,75,87,81,3.37,6.26,46,48,Maryland
+Baylor University,West,3,22.27,100,86,77,72,2.52,4.79,58,57,Baylor
+University of Wisconsin-Madison,West,1,22.73,73,82,84,81,3.74,0.01,71,64,Wisconsin
+Eastern Washington University,South,13,22.74,94,100,49,41,1.41,2.15,83,75,E Washington
+Robert Morris University,South,16,22.87,100,88,60,53,0.9,1.77,79,82,Robert Morris
+San Diego State University,South,8,22.96,86,76,69,62,1.2,3.16,33,29,SDSU
+Ohio State University-Main Campus,West,10,24.06,108,92,85,82,2.06,0,57,54,Ohio State
+University of California-Irvine,East,13,24.1,100,88,87,84,5.11,0.01,44,40,UC Irvine
+University of Oklahoma-Norman Campus,East,3,24.75,76,71,72,60,2.61,4.36,83,77,Oklahoma
+Gonzaga University,South,2,25.29,93,78,81,84,2.27,4.56,69,64,Gonzaga
+Stephen F Austin State University,South,12,25.36,93,80,46,38,0.76,1.12,58,54,Stephen F Austin
+University of Alabama at Birmingham,South,14,26.16,100,87,58,48,1.91,3.07,86,88,UAB
+University at Buffalo,Midwest,12,27.92,93,80,77,68,2.99,5.91,55,58,Buffalo
+Davidson College,South,10,28.18,33,13,94,91,3.48,3.3,37,42,Davidson
+Belmont University,East,15,28.21,100,76,68,67,1.05,0.84,81,78,Belmont
+Iowa State University,South,3,28.5,108,93,72,65,2.52,6.02,84,81,Iowa State
+University of Kentucky,Midwest,1,29.12,100,81,65,58,1.76,3.88,69,68,Kentucky
+Southern Methodist University,South,6,29.21,38,20,82,75,2.32,3.53,49,52,SMU
+Providence College,East,6,29.22,92,71,83,87,2.18,1.96,58,62,Providence
+Virginia Commonwealth University,West,7,31.99,63,87,60,53,1.6,2.59,69,69,VCU
+Coastal Carolina University,West,16,32.33,88,107,50,41,2.03,1.7,76,72,Coastal Carolina
+Northeastern University,Midwest,14,34.68,115,87,84,82,1.63,5.31,33,32,Northeastern
+University of California-Los Angeles,South,11,35.27,115,88,92,89,3.78,7.05,23,21,UCLA
+University of Northern Iowa,East,5,35.47,94,72,69,63,1.33,2.8,86,80,N Iowa
+Manhattan College,Midwest,16,35.95,50,71,76,72,2.47,8.42,64,69,Manhattan
+University of Georgia,East,10,36.17,108,81,84,81,1.97,3.14,58,53,Georgia
+Wichita State University,Midwest,7,36.83,114,88,51,42,0.68,2.51,96,96,Wichita State
+New Mexico State University-Main Campus,Midwest,15,38.34,100,78,49,37,1.33,3.67,86,84,NM State
+Michigan State University,East,7,38.45,100,75,79,75,2.89,5.34,72,65,Michigan State
+SUNY at Albany,East,14,38.57,50,79,68,64,1.6,2.17,53,58,Albany
+Oklahoma State University-Main Campus,West,9,39.35,6,29,64,55,1.65,5,78,74,Oklahoma State
+University of Virginia-Main Campus,East,2,39.94,92,59,94,92,3.33,6.27,31,29,UVA
+University of Utah,South,5,40.23,86,60,62,59,1.42,3.65,86,77,Utah
+University of Iowa,South,7,42.35,121,87,70,70,1.23,3.58,83,77,Iowa
+Texas Southern University,West,15,43.16,93,127,18,14,1.89,1.73,47,42,Texas Southern
+Xavier University,West,6,45.25,67,88,77,76,1.41,1.66,82,59,Xavier
+University of Wyoming,East,12,46.79,115,81,57,51,1.9,4.69,98,94,Wyoming
+North Carolina State University at Raleigh,East,8,47.25,114,80,77,71,5.26,0.01,51,49,NC State
+Lafayette College,East,16,47.56,80,47,91,86,5.18,9.74,37,32,Lafayette
+West Virginia University,Midwest,5,49.5,107,73,63,53,1.7,4.2,87,84,West Virginia
+Purdue University-Main Campus,Midwest,9,51.67,117,81,74,67,2.67,0,64,58,Purdue
+University of Dayton,East,11,52.06,117,75,78,75,2.83,5.89,55,51,Dayton
+University of Arkansas,West,5,53.4,125,80,63,58,1.62,4.02,59,58,Arkansas
+University of North Carolina at Chapel Hill,West,4,62.31,120,65,92,87,2.8,4.11,27,28,UNC
+University of Arizona,West,2,65.91,136,81,64,59,2.93,4.84,79,75,Arizona
+Georgia State University,West,14,71.62,136,81,58,46,1.31,1.93,53,57,Georgia State

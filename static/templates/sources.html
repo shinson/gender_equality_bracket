@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<article>
+
+<h3>Documentation</h3>
+
+<p>Data came from the following sources:</p>
+<ul>
+<li><a href="http://nces.ed.gov/ipeds/datacenter/">IPEDS Data Center</a>: </li>
+<ul>
+<li> Graduation rate by gender (2013) </li>
+<li> Number of acceptances by gender (2013-2014) </li>
+<li> Number of applicants by gender (2013-2014)</li>
+<li> Number of applicants by gender (2013-2014)</li>
+<li> Number of basketball scholarships by gender (2006)</li>
+<li> Number of Postsecondary Awards in STEM  by gender (2008-2009)</li>
+<li> Undergraduate Enrollment by gender (2008-2009) </li>
+</ul>
+<li><a href="http://www.scholarshipstats.com/basketball.htm">Scholarship Stats</a>: </li>
+<ul>
+<li> Roster size by gender (2014) </li>
+</ul>
+</ul>
+</article>
+<article>
+<h3>Equation</h3>
+<p> After compiling the data, rates of acceptance, basketball scholarships, and STEM awards were calculating 
+according to the percentage of the total number of applicants, roster size, and undergraduate enrollment respectively.
+Admissions rates were calculated by dividing the number of acceptance by the number of applicants. Basketball scholarship rates 
+were calculated by the number of scholarships by roster size. Finally, STEM graduation rates were calculated by number of STEM awards 
+and the undergraduate enrollment. </p>
+<p>To determine the equality score, these rates were subtracted between the male rate and female rate. The absolute 
+value of these differences were then added together to make the score. Teams with higher score meant more inequality. Teams
+were disqualified from the competition if there was no data or like with the case of Harvard, where no basketball are given to players.</p>
+</article>
+{% endblock %}

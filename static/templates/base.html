@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<html>
+    <head>
+    <link href='http://fonts.googleapis.com/css?family=Martel+Sans:200' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="{% static "css/style.css" %} ">
+	
+
+	<title>{% block head_title %}March Madness{% endblock %}</title>
+</head>
+
+<body>
+<nav>
+<h1> March Madness: Gender Equality </h1>
+<section id="menu">
+<a href="/">Home</a> |
+<a href="/sources">Sources</a>
+</section>
+</nav>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>
